@@ -1,2 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
 It starts supporting version control i.e starts storing the history
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area has only those files which are going to be committed. with the help of this we can commit the changes in one file while the other changes in other files need not have to be committed.
+How can you use the staging area to make sure you have one commit per logical change?
+We can move only the files related to one particulat change to the staging area and other files which have changes for some other change not moved to staging area and then commit it.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Trials and slight modifications can be saved in branches
+How do the diagrams help you visualize the branch structure?
+We can understand which commits are accessible thru which branch etc
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging will take care of most of the changes and we need to interfere only in case of conflicts. Where as manual merging can be a tedious process and more prone to error.
